@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/zma/Documents/GitHub/common-curriculum-selector/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin22-g++-13 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -o CMakeFiles/CCS.dir/main.cpp.o -c /Users/zma/Documents/GitHub/common-curriculum-selector/main.cpp",
+  "file": "/Users/zma/Documents/GitHub/common-curriculum-selector/main.cpp",
+  "output": "CMakeFiles/CCS.dir/main.cpp.o"
+}
+]
