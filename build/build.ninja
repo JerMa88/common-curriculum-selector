@@ -239,6 +239,37 @@ build CCS: CXX_EXECUTABLE_LINKER__CCS_Debug CMakeFiles/CCS.dir/main.cpp.o
   TARGET_FILE = CCS
   TARGET_PDB = CCS.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target tests_list
+
+
+#############################################
+# Order-only phony target for tests_list
+
+build cmake_object_order_depends_target_tests_list: phony || CMakeFiles/tests_list.dir
+
+build CMakeFiles/tests_list.dir/test_DS_list.cpp.o: CXX_COMPILER__tests_list_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/test_DS_list.cpp || cmake_object_order_depends_target_tests_list
+  DEP_FILE = CMakeFiles/tests_list.dir/test_DS_list.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+  OBJECT_DIR = CMakeFiles/tests_list.dir
+  OBJECT_FILE_DIR = CMakeFiles/tests_list.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target tests_list
+
+
+#############################################
+# Link the executable tests_list
+
+build tests_list: CXX_EXECUTABLE_LINKER__tests_list_Debug CMakeFiles/tests_list.dir/test_DS_list.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+  OBJECT_DIR = CMakeFiles/tests_list.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = tests_list
+  TARGET_PDB = tests_list.dbg
+
 
 #############################################
 # Utility command for package
@@ -534,7 +565,7 @@ build CMakeFiles/ContinuousSubmit | ${cmake_ninja_workdir}CMakeFiles/ContinuousS
 #############################################
 # Folder: /Users/zma/Documents/GitHub/common-curriculum-selector/build
 
-build all: phony CCS
+build all: phony CCS tests_list
 
 # =============================================================================
 # Unknown Build Time Dependencies.

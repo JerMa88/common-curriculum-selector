@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/zma/Documents/GitHub/assignment-3-do-my-brackets-match-JerMa88-1/catch2",
+      "program": "/Users/zma/Documents/GitHub/assignment-3-do-my-brackets-match-JerMa88-1/catch2/build/Debug/outDebug"
+    }
+  ]
+}
