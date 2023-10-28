@@ -1,3 +1,4 @@
+/Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/CCS.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/Experimental.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/Nightly.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/Continuous.dir
@@ -26,7 +27,6 @@
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/ContinuousCoverage.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/ContinuousMemCheck.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/ContinuousSubmit.dir
-/Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/CCS.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/tests_list.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/package.dir
 /Users/zma/Documents/GitHub/common-curriculum-selector/build/CMakeFiles/package_source.dir

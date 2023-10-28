@@ -1,6 +1,3 @@
-#ifndef list_H
-#define list_H
-
 #include <cstddef>
 
 /**
@@ -19,8 +16,8 @@ private:
         Object data;
         Node *next;
 
-        Node(const Object &d = Object{}, Node *n = nullptr)
-            : data{d}, next{n} {};
+        Node(const Object &d = Object(), Node *n = nullptr)
+            : data(d), next(n) {};
     };
 
     Node *head;
@@ -55,4 +52,3 @@ public:
 
     Object at(size_t value) const;
 };
-#endif

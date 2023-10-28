@@ -40,6 +40,43 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = /Users/zma/Documents/GitHub/common-curriculum-selector/build/
+# =============================================================================
+# Object build statements for EXECUTABLE target CCS
+
+
+#############################################
+# Order-only phony target for CCS
+
+build cmake_object_order_depends_target_CCS: phony || CMakeFiles/CCS.dir
+
+build CMakeFiles/CCS.dir/main.cpp.o: CXX_COMPILER__CCS_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/main.cpp || cmake_object_order_depends_target_CCS
+  DEP_FILE = CMakeFiles/CCS.dir/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -pedantic
+  OBJECT_DIR = CMakeFiles/CCS.dir
+  OBJECT_FILE_DIR = CMakeFiles/CCS.dir
+
+build CMakeFiles/CCS.dir/datastructure/list.cpp.o: CXX_COMPILER__CCS_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/datastructure/list.cpp || cmake_object_order_depends_target_CCS
+  DEP_FILE = CMakeFiles/CCS.dir/datastructure/list.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -pedantic
+  OBJECT_DIR = CMakeFiles/CCS.dir
+  OBJECT_FILE_DIR = CMakeFiles/CCS.dir/datastructure
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CCS
+
+
+#############################################
+# Link the executable CCS
+
+build CCS: CXX_EXECUTABLE_LINKER__CCS_Debug CMakeFiles/CCS.dir/main.cpp.o CMakeFiles/CCS.dir/datastructure/list.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+  OBJECT_DIR = CMakeFiles/CCS.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = CCS
+  TARGET_PDB = CCS.dbg
+
 
 #############################################
 # Utility command for Experimental
@@ -209,37 +246,6 @@ build ContinuousMemCheck: phony CMakeFiles/ContinuousMemCheck
 build ContinuousSubmit: phony CMakeFiles/ContinuousSubmit
 
 # =============================================================================
-# Object build statements for EXECUTABLE target CCS
-
-
-#############################################
-# Order-only phony target for CCS
-
-build cmake_object_order_depends_target_CCS: phony || CMakeFiles/CCS.dir
-
-build CMakeFiles/CCS.dir/main.cpp.o: CXX_COMPILER__CCS_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/main.cpp || cmake_object_order_depends_target_CCS
-  DEP_FILE = CMakeFiles/CCS.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
-  OBJECT_DIR = CMakeFiles/CCS.dir
-  OBJECT_FILE_DIR = CMakeFiles/CCS.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target CCS
-
-
-#############################################
-# Link the executable CCS
-
-build CCS: CXX_EXECUTABLE_LINKER__CCS_Debug CMakeFiles/CCS.dir/main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
-  OBJECT_DIR = CMakeFiles/CCS.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = CCS
-  TARGET_PDB = CCS.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target tests_list
 
 
@@ -248,9 +254,15 @@ build CCS: CXX_EXECUTABLE_LINKER__CCS_Debug CMakeFiles/CCS.dir/main.cpp.o
 
 build cmake_object_order_depends_target_tests_list: phony || CMakeFiles/tests_list.dir
 
-build CMakeFiles/tests_list.dir/test_DS_list.cpp.o: CXX_COMPILER__tests_list_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/test_DS_list.cpp || cmake_object_order_depends_target_tests_list
-  DEP_FILE = CMakeFiles/tests_list.dir/test_DS_list.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
+build CMakeFiles/tests_list.dir/datastructure/list.cpp.o: CXX_COMPILER__tests_list_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/datastructure/list.cpp || cmake_object_order_depends_target_tests_list
+  DEP_FILE = CMakeFiles/tests_list.dir/datastructure/list.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -pedantic
+  OBJECT_DIR = CMakeFiles/tests_list.dir
+  OBJECT_FILE_DIR = CMakeFiles/tests_list.dir/datastructure
+
+build CMakeFiles/tests_list.dir/test_list.cpp.o: CXX_COMPILER__tests_list_unscanned_Debug /Users/zma/Documents/GitHub/common-curriculum-selector/test_list.cpp || cmake_object_order_depends_target_tests_list
+  DEP_FILE = CMakeFiles/tests_list.dir/test_list.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2 -Wall -Wextra -pedantic
   OBJECT_DIR = CMakeFiles/tests_list.dir
   OBJECT_FILE_DIR = CMakeFiles/tests_list.dir
 
@@ -262,7 +274,7 @@ build CMakeFiles/tests_list.dir/test_DS_list.cpp.o: CXX_COMPILER__tests_list_uns
 #############################################
 # Link the executable tests_list
 
-build tests_list: CXX_EXECUTABLE_LINKER__tests_list_Debug CMakeFiles/tests_list.dir/test_DS_list.cpp.o
+build tests_list: CXX_EXECUTABLE_LINKER__tests_list_Debug CMakeFiles/tests_list.dir/datastructure/list.cpp.o CMakeFiles/tests_list.dir/test_list.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=13.2
   OBJECT_DIR = CMakeFiles/tests_list.dir
   POST_BUILD = :

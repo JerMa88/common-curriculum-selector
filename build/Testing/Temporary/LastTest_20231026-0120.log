@@ -1,0 +1,19 @@
+Start testing: Oct 25 20:32 CDT
+----------------------------------------------------------
+Unable to find executable: /Users/zma/Documents/GitHub/common-curriculum-selector/build/tests_list
+1/1 Testing: TestList
+1/1 Test: TestList
+Command: ""
+Directory: /Users/zma/Documents/GitHub/common-curriculum-selector/build
+"TestList" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestList" end time: Oct 25 20:32 CDT
+"TestList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 25 20:32 CDT
