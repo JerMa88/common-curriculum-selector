@@ -1,12 +1,6 @@
 # ninja log v5
 2	6688	1698283523755071244	CMakeFiles/tests_list.dir/test_DS_list.cpp.o	c7ed1cd84800782a
-2	366	1698456564105721642	CMakeFiles/tests_list.dir/datastructure/list.cpp.o	ec662d780385b08d
-5	5328	1698455600827745085	CMakeFiles/tests_list.dir/test_list.cpp.o	b0b3a2ccf703deeb
-2	247	1698456609179935332	CMakeFiles/CCS.dir/datastructure/list.cpp.o	7102e08946651f45
-2	225	1698457627726675221	CMakeFiles/tests_list.dir/datastructure/list.cpp.o	ec662d780385b08d
-2	5265	1698457632764707047	CMakeFiles/tests_list.dir/test_list.cpp.o	b0b3a2ccf703deeb
-5265	5473	1698457632969853252	tests_list	f46643ced795c0c4
-1	5272	1698457687203629710	CMakeFiles/tests_list.dir/test_list.cpp.o	b0b3a2ccf703deeb
-5272	5418	1698457687346706443	tests_list	f46643ced795c0c4
-1	5142	1698457713663325355	CMakeFiles/tests_list.dir/test_list.cpp.o	b0b3a2ccf703deeb
 5142	5288	1698457713806132045	tests_list	f46643ced795c0c4
+2	225	1698457627726675221	CMakeFiles/tests_list.dir/datastructure/list.cpp.o	ec662d780385b08d
+1	5142	1698457713663325355	CMakeFiles/tests_list.dir/test_list.cpp.o	b0b3a2ccf703deeb
+2	247	1698456609179935332	CMakeFiles/CCS.dir/datastructure/list.cpp.o	7102e08946651f45
